@@ -8,7 +8,7 @@ function DeckInfoCard({ name, description, id, cards, handleDeleteDeck }) {
         <div className='deck-card-header' style={{
   display: 'flex',
   width: '100%',
-  'justify-content': 'space-between'
+  'justifyContent': 'space-between'
 }
 }>
           <h5 className='card-title'>{name}</h5>
@@ -26,7 +26,7 @@ function DeckInfoCard({ name, description, id, cards, handleDeleteDeck }) {
             className='btn btn-danger delete-deck'
             onClick={() => handleDeleteDeck(id)}
           >
-            <i className='bi bi-trash'></i>
+            <i className='bi bi-trash'></i>Delete
           </button>
         </div>
       </div>

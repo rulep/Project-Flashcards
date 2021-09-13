@@ -21,7 +21,7 @@ function CardDetails({ id, front, back, deckId, deleteHandler }) {
             className='btn btn-danger delete-deck'
             onClick={() => deleteHandler(id)}
           >
-            <i className='bi bi-trash'></i>
+            <i className='bi bi-trash'></i> Delete
             
           </button>
         </div>

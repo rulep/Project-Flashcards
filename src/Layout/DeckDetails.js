@@ -76,7 +76,7 @@ function DeckDetails() {
           className='btn btn-danger delete-deck'
           onClick={handleDeleteDeck}
         >
-          <i className='bi bi-trash'></i>
+          <i className='bi bi-trash'></i> Delete
         </button>
       </div>
 
